@@ -12,4 +12,8 @@ public class GetMethods {
 	public boolean GetVisibility(WebElement element) {
 		return element.isDisplayed();
 	}
+	
+	public boolean GetCheckBoxStatus(WebElement element) {
+		return element.isSelected();
+	}
 }
